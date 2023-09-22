@@ -12,9 +12,21 @@
 }
 
 /*general*/
-body{
-    font-family: roboto;
+.body {
+    font-family:"roboto";
 }
+.list {
+    list-style:"none";
+}
+
+.link {
+    text-decoration:"none";
+}
+
+.h2 {
+    background-color:#455ae5;
+}
+
 .button {
   font-family: roboto;
   font-size: 16px;
