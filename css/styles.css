@@ -1,6 +1,26 @@
 :root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --prmary-white-color: #fff;
+  --primary-blue-color: #455ae5;
+  --footer-text-color: #f4f4fd;
+  --nav-background-color: #fff;
+  --headaer-background-color: #2e2f42;
+  --primary-body-backgroundc-color: #fff;
+  --secondary-body-background-color: #f4f4fd;
+  --footer-background-color: #2e2f42;
 }
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+/*general*/
+body{
+    font-family: roboto;
+}
+.button {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font font-style: normal;
+  line-height: 24px;
+  letter-spacing:0.64px;
+}
+
