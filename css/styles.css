@@ -15,6 +15,7 @@ main {
 }
 .list {
   list-style: none;
+  padding-left: 0%;
 }
 
 .name {
@@ -87,6 +88,7 @@ main {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+
 /*End of Header Section*/
 
 /*hero section*/
