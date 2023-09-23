@@ -12,9 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
     <!--css-->
-    <link rel="stylesheet" ref="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/styles.css"/>
   </head>
   <body>
     <!--header-->
@@ -35,21 +34,25 @@
         </ul>
       </nav>
       <div class="contact-info">
-        <ul>
-          <li><a href="#" class="contact-info link">+1 (425) 123-45-63</a></li>
-          <li><a href="#" class="contact-info link">example@mail.ru</a></li>
+        <ul class="contact-info list">
+          <li><a href="#" class="contact-info tel link">+1 (425) 123-45-63</a></li>
+          <li><a href="#" class="contact-info address link">example@mail.ru</a></li>
         </ul>
       </div>
     </header>
 
     <!--Main-->
     <main>
-      <h1 class="hero-title">Effective Solution for your Business</h1>
-      <button class="hero-title button" type="button">Order Service</button>
-      <!--Hero-->
       <section class="hero">
+        <div class="hero-background">
+          <h1 class="hero-title title">Effective Solution <br> for your Business</h1>
+          <button class="hero-title button" type="button">Order Service</button>
+        </div>
+      </section>
+      <!--Hero-->
+      <section class="hero-list">
         <ul class="hero-list list">
-          <h2 class="hero-item">
+          <h2 class="hero-item item">
             <li>Strategy</li>
           </h2>
           <p class="hero-item hero-bottom-text">
@@ -57,7 +60,7 @@
             perfect and creative solution.
           </p>
 
-          <h2 class="hero-item">
+          <h2 class="hero-item item">
             <li>Punctuality</li>
           </h2>
           <p class="hero-item hero-bottom-text">
@@ -65,7 +68,7 @@
             within the shortest possible time.
           </p>
 
-          <h2 class="hero-item">
+          <h2 class="hero-item item">
             <li>Deligence</li>
           </h2>
           <p class="hero-item hero-bottom-text">
@@ -73,7 +76,7 @@
             growth opportunities and minimize risk.
           </p>
 
-          <h2 class="hero-item">
+          <h2 class="hero-item item">
             <li>Technologies</li>
           </h2>
           <p class="hero-item hero-bottom-text">
@@ -110,16 +113,16 @@
               width="200"
             />
           </li>
-          <h3 class="crew-member-name">Mark Guerrero</h3>
-          <p class="crew-member-position">Product Designer</p>
+          <h3 class="crew-member-name name">Mark Guerrero</h3>
+          <p class="crew-member-position position">Product Designer</p>
         </ul>
 
         <ul class="crew-list list">
           <liclass="crew-member">
             <img src="./image/Tom Ford.jpg" alt="picture of Tom" width="200" />
           </liclass=>
-          <h3 class="crew-member-name">Tom Ford</h3>
-          <p class="crew-member-position">Frontend Developer</p>
+          <h3 class="crew-member-name name">Tom Ford</h3>
+          <p class="crew-member-position position">Frontend Developer</p>
         </ul>
 
         <ul class="crew-list list">
@@ -130,11 +133,11 @@
               width="200"
             />
           </li>
-          <h3 class="crew-member-name">Camila Garcia</h3>
-          <p class="crew-member-position">Marketing</p>
+          <h3 class="crew-member-name name">Camila Garcia</h3>
+          <p class="crew-member-position position">Marketing</p>
         </ul>
 
-        <ul class="crew-member-name">
+        <ul class="crew-list list">
           <li class="crew-member">
             <img
               src="./image/Daniel Wilson.jpg"
@@ -142,19 +145,21 @@
               width="200"
             />
           </li>
-          <h3 class="crew-member-name">Daniel Wilson</h3>
-          <p class="crew-member-position">UI Designer</p>
+          <h3 class="crew-member-name name">Daniel Wilson</h3>
+          <p class="crew-member-position position">UI Designer</p>
         </ul>
       </section>
     </main>
 
     <!--Footer-->
     <footer class="footer">
+      <div class="footer-background">
       <a href="#" class="footer-logo"><span>Web</span>Studio</a>
       <p class="footer-text">
-        Increase the flow of customer and sales for your business with digital
+        Increase the flow of customer and<br>sales for your business with digital<br>
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
