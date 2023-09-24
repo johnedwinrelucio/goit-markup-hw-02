@@ -45,6 +45,14 @@ main {
 .header-logo {
   text-decoration: none;
 }
+
+.header-logo:hover {
+  font-size: 100px;
+}
+.header-logo span:hover {
+  font-size: 100px;
+}
+
 .header-logo span {
   color: var(--IRIS);
   font-family: Raleway;
@@ -77,6 +85,20 @@ main {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+}
+
+.header-item:hover {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.contact-info .tel:hover {
+  font-weight: 900;
+  font-style: oblique;
+}
+.contact-info .add:hover {
+  font-weight: 900;
+  font-style: oblique;
 }
 
 .contact-info .list {
@@ -208,4 +230,10 @@ main {
   text-decoration: none;
 }
 
+.footer-logo:hover {
+  font-size: 50px;
+}
+.footer-logo span:hover {
+  font-size: 50px;
+}
 /*End of Footer section*/
